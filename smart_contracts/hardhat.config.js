@@ -10,7 +10,7 @@ const MONAD_TEST_RPC_URL =
   "https://monad-testnet.g.alchemy.com/v2/YOUR-API-KEY";
 const MONAD_MAINNET_RPC_URL =
   process.env.MONAD_MAIN_RPC_URL ||
-  "https://monad-testnet.g.alchemy.com/v2/YOUR-API-KEY";
+  "https://monad-mainnet.g.alchemy.com/v2/YOUR-API-KEY";
 const PRIVATE_KEY = process.env.MINTER_PRIVATE_KEY || "0x";
 const MONADSCAN_API_KEY =
   process.env.MONADSCAN_API_KEY || "Your monadscan API key";
