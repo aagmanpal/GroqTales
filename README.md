@@ -78,7 +78,7 @@ GroqTales is an open-source, AI-powered Web3 storytelling platform. Writers and 
 
 ## Quick Start
 ```bash
-git clone https://github.com/Drago-03/GroqTales
+git clone https://github.com/IndieHub25/GroqTales
 cd GroqTales
 npm install
 cp .env.example .env.local
@@ -90,7 +90,7 @@ npm run dev
 2. Connect your wallet (optional; required for minting/publishing)
 3. Generate your story → Publish or Mint as NFT
 
-See the [Wiki](https://github.com/Drago-03/GroqTales/wiki) for configuration, environment variables, and deployment details.
+See the [Wiki](https://github.com/IndieHub25/GroqTales/wiki) for configuration, environment variables, and deployment details.
 
 ---
 
@@ -218,8 +218,8 @@ We value every contribution! Please read our [CONTRIBUTORS.md](CONTRIBUTORS.md) 
 
 ### Project Contributors
 <p align="center">
-  <a href="https://github.com/Drago-03/GroqTales/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=Drago-03/GroqTales" alt="Contributors" />
+  <a href="https://github.com/Drago-03/IndieHub25/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=IndieHub25/GroqTales" alt="Contributors" />
   </a>
 </p>
 
@@ -231,9 +231,9 @@ Thanks to these amazing people for making GroqTales better!
 
 ### Core Documentation
 - **Architecture Overview:** [ARCHITECTURE.md](docs/ARCHITECTURE.md) - Comprehensive system design and technical architecture
-- **Project Wiki:** [GitHub Wiki](https://github.com/Drago-03/GroqTales/wiki) - Detailed guides and documentation
-- **API Documentation:** [Wiki/API](https://github.com/Drago-03/GroqTales/wiki/API) - Backend API reference
-- **Smart Contracts:** [Wiki/Blockchain](https://github.com/Drago-03/GroqTales/wiki/Blockchain) - Contract documentation
+- **Project Wiki:** [GitHub Wiki](https://github.com/IndieHub25/GroqTales/wiki) - Detailed guides and documentation
+- **API Documentation:** [Wiki/API](https://github.com/IndieHub25/GroqTales/wiki/API) - Backend API reference
+- **Smart Contracts:** [Wiki/Blockchain](https://github.com/IndieHub25/GroqTales/wiki/Blockchain) - Contract documentation
 
 ### System Architecture
 - **Frontend Architecture:** [ARCHITECTURE.md#frontend](docs/ARCHITECTURE.md#frontend-architecture) - Next.js application structure
@@ -243,7 +243,7 @@ Thanks to these amazing people for making GroqTales better!
 - **System Diagrams:** [ARCHITECTURE.md#diagrams](docs/ARCHITECTURE.md#system-diagrams) - Mermaid flowcharts and architecture diagrams
 
 ### Development Resources
-- **Setup Guide:** [Wiki/Development-Setup](https://github.com/Drago-03/GroqTales/wiki/Development-Setup)
+- **Setup Guide:** [Wiki/Development-Setup](https://github.com/IndieHub25/GroqTales/wiki/Development-Setup)
 - **Contributing:** [CONTRIBUTING.md](CONTRIBUTING.md) - How to contribute to the project
 - **Code of Conduct:** [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) - Community guidelines
 - **Security Policy:** [SECURITY.md](SECURITY.md) - Security practices and vulnerability reporting
@@ -252,8 +252,8 @@ Thanks to these amazing people for making GroqTales better!
 
 ## Resources
 - **Website:** [groqtales.xyz](https://www.groqtales.xyz)
-- **Docs:** [Wiki](https://github.com/Drago-03/GroqTales/wiki)
-- **Community Hub:** [GitHub Discussions](https://github.com/Drago-03/GroqTales/discussions)
+- **Docs:** [Wiki](https://github.com/IndieHub25/GroqTales/wiki)
+- **Community Hub:** [GitHub Discussions](https://github.com/IndieHub25/GroqTales/discussions)
 - **Discord Support:** [Join our Discord](https://discord.gg/JK29FZRm)
 
 ---
