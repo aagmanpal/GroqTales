@@ -9,10 +9,7 @@ const connectDB = async (maxRetries = 5, retryDelayMs = 2000) => {
   const safeMaxRetries = Math.max(1, Math.floor(maxRetries));
   const safeRetryDelayMs = Math.max(100, retryDelayMs);
 
-  if (!process.env.MONGODB_URI) {
-    throw new Error('MONGODB_URI environment variable is required for MongoDB connection.');
-  }
-  const uri = process.env.MONGODB_URI;
+  const uri = process.env.MONGODB_URI || 'mongodb://localhost:27017/groqtales';
 
   // Sanitize URI for logging (hide credentials)
   const sanitizedUri = uri.replace(/\/\/[^@]+@/, '//*****:*****@');
