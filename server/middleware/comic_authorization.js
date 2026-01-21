@@ -1,5 +1,5 @@
 
-
+const jwt = require('jsonwebtoken');
 const mongoose = require('mongoose');
 const Comic = require('../models/Comic');
 

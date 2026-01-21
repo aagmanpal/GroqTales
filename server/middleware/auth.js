@@ -3,8 +3,7 @@
  * Handles user authentication and permission checks for comics
  */
 
-const jwt = require('jsonwebtoken');
-const { verifyRefreshToken, signAccessToken } =  require('../utils/jwt.js');
+const { verifyAccessToken,verifyRefreshToken, signAccessToken } =  require('../utils/jwt.js');
 
 
 const authRequired = async(req, res, next) => {
@@ -16,13 +15,13 @@ const authRequired = async(req, res, next) => {
       return res.status(401).json({ success: false, message: 'Missing token' });
     }
 
-    if (!process.env.JWT_SECRET) {
+    if (!process.env.JWT_ACCESS_SECRET) {
       return res
         .status(501)
         .json({ success: false, error: 'Authentication not configured' });
     }
     try {
-      const decoded = jwt.verify(token, process.env.JWT_ACCESS_SECRET);
+      const decoded = verifyAccessToken(token);
       req.user = decoded; // { id, role }
       return next();
     } catch (err) {
