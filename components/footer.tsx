@@ -97,7 +97,7 @@ export function Footer() {
                   <Link
                     key={link.url}
                     href={link.url}
-                    className="p-2 border-4 border-foreground rounded-none hover:bg-primary hover:text-white transition-all duration-300 shadow-[4px_4px_0px_0px_var(--shadow-color)] hover:-translate-y-1 hover:shadow-[6px_6px_0px_0px_var(--shadow-color)]"
+                    className="p-2 border-4 border-foreground rounded-none hover:bg-primary transition-all duration-300 shadow-[4px_4px_0px_0px_var(--shadow-color)] hover:-translate-y-1 hover:shadow-[6px_6px_0px_0px_var(--shadow-color)]"
                   >
                     {link.icon}
                     <span className="sr-only">{link.label}</span>
